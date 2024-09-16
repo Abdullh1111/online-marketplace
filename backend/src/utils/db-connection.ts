@@ -7,7 +7,7 @@ async function main() {
     try {
         
   await mongoose.connect(config.dbUrl as string,{
-    dbName:'Online Marketplace'
+    dbName:'Secure_Login'
   });
     }catch(err : any){
         throw new Error(err.message)
